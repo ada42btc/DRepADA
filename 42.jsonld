@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "42",
+    "motivations": "My journey in blockchain spans 7 years—with 4 dedicated to Cardano—and over 30 years of observing the Internet’s evolution. With 25 years as a web developer, experience in machine learning, and a passion for history, I’ve deeply explored the nature of money, monetary policy, and governance, as well as the enduring principles of Bitcoin.\n\nWitnessing the shortcomings in today’s financial, corporate, governance, and banking systems—and recognizing the transformative potential (and risks) of the AI era—I believe that a decentralized, resilient framework is essential. Cardano and Bitcoin aren’t just innovative alternatives; they’re necessary foundations for a better, more equitable future in governance, finance, and identity.",
+    "objectives": "I am dedicated to advancing a decentralized, innovative future for Cardano by championing:\n\n- Decentralized Governance: Strengthen both network and governance decentralization, ensuring resilience and minimizing central control.\n- BTC-ADA Synergy: Uphold Bitcoin as the ultimate store of value while positioning Cardano as the premier platform for DeFi, identity, and next-generation applications, ADA as transaction layer for BTC.\n- Strategic Treasury Allocation: Advocate for funding that drives core blockchain development, governance enhancements, and effective marketing to boost ecosystem adoption.\n- Privacy & Security: Support privacy-enhancing solutions like Midnight to protect user data and enable secure, confidential governance participation.\n- DeFi Leadership: Promote the expansion of stablecoins, lending protocols, and decentralized identity solutions, solidifying Cardano’s role as the primary financial infrastructure.\n\nI will be acting in accordance with above core principles.",
+    "paymentAddress": "addr1qxwz3tazacaff45wj7hlp2cgtgt2rcsx7ddj5uxjg69cd50uchu22jr3r3h7esp079aellqrhfrsq58k95kfj8ny868qpcfqhu",
+    "qualifications": "Over 25 years in web development and programming.\n10 years of blockchain experience, including 4 years focused on Cardano.\nExtensive research into monetary policy, governance, and the principles of Bitcoin.\nMore than 30 years of following the Internet’s evolution and its impact on society.\nBackground in machine learning and a strong historical perspective on governance, financial, monetary, technological and corporate systems."
+  }
+}
